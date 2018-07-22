@@ -1,0 +1,27 @@
+/**********
+ Setting Variables
+ **********/
+/**********
+ Main Style
+ **********/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: 'Lato', serif;
+  min-height: 100vh;
+  color: #1a1f3e; }
+
+nav.quickLink a {
+  font-size: 13px;
+  color: #4689c7; }
+
+.myName {
+  font-size: 60px;
+  color: #4689c7; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,40 @@
+/**********
+ Setting Variables
+ **********/
+
+$mainColor: #1a1f3e;
+$color-logo: #4689c7;
+$color-text: #000;
+$color-bg: #fff;
+$color-link: #000;
+$color-link-hover: #000;
+$color-info: #000;
+
+/**********
+ Main Style
+ **********/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', serif;
+  min-height: 100vh;
+  color: $mainColor;
+}
+
+nav.quickLink a {
+  font-size: 13px;
+  color: $color-logo;
+}
+
+.myName {
+  font-size: 60px;
+  color: $color-logo;
+}
