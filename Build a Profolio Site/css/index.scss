@@ -5,9 +5,6 @@
 $color-logo: #4689c7;
 $color-text: #000;
 $color-bg: #fff;
-$color-link: #000;
-$color-link-hover: #000;
-$color-info: #000;
 $breadcrumb-divider: quote(">");
 
 /**********
@@ -104,3 +101,36 @@ button {
 footer a {
   color: #7952b3;
 }
+
+.btn {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  margin: auto;
+  color: $color-logo;
+}
+
+.btn:after,
+.btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: $color-logo;
+  transition: all 0.3s ease;
+  transform: scale(0.85);
+}
+.btn:hover:before {
+  top: 0;
+  transform: scale(1);
+}
+.btn:hover:after {
+  transform: scale(1);
+}
+
