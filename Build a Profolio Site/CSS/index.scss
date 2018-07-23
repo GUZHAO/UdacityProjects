@@ -23,18 +23,59 @@ html {
 }
 
 body {
-  margin: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   font-family: 'Lato', serif;
   min-height: 100vh;
   color: $mainColor;
 }
 
-nav.quickLink a {
-  font-size: 13px;
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+nav.socialLink a {
   color: $color-logo;
+}
+
+nav.quickLink a {
+  font-size: 12px;
+  color: $color-logo;
+
+}
+
+.has-border {
+  border-right: 2px $color-logo dotted !important;
 }
 
 .myName {
   font-size: 60px;
   color: $color-logo;
+}
+
+.divider {
+  top: -10px;
+  z-index: 9999;
+  border-top: 1px solid $color-logo;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background-color: $color-bg;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }

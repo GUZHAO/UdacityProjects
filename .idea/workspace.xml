@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build a Profolio Site/JS/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Build a Profolio Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UdacityProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UdacityProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/CSS/img/P1_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/CSS/img/P1_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/CSS/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/CSS/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/JS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/JS/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/logo.svg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,28 +24,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="445">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="252">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/JS/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -63,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/Build a Profolio Site/index.scss" />
         <option value="$PROJECT_DIR$/Build a Profolio Site/JS/index.js" />
-        <option value="$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss" />
         <option value="$PROJECT_DIR$/Build a Profolio Site/index.html" />
+        <option value="$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss" />
       </list>
     </option>
   </component>
@@ -104,6 +112,12 @@
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
               <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,33 +161,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532216884263</updated>
-      <workItem from="1532216885779" duration="4911000" />
+      <workItem from="1532216885779" duration="5052000" />
+      <workItem from="1532230857455" duration="6268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4911000" />
+    <option name="totallyTimeSpent" value="11320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1701389" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,23 +199,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/JS/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/CSS/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss">
+    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/JS/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="240">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="445">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
     </entry>
