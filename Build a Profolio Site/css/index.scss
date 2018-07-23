@@ -9,6 +9,7 @@ $color-bg: #fff;
 $color-link: #000;
 $color-link-hover: #000;
 $color-info: #000;
+$breadcrumb-divider: quote(">");
 
 /**********
  Main Style
@@ -39,19 +40,17 @@ nav.socialLink a {
   color: $color-logo;
 }
 
-nav.quickLink a {
-  font-size: 12px;
+.quickLink li {
+  font-size: 10px;
   color: $color-logo;
-
-}
-
-.has-border {
-  border-right: 1px $color-logo solid !important;
+  text-decoration: none;
+  background: transparent !important;
 }
 
 .myName {
   font-size: 60px;
   color: $color-logo;
+  text-shadow: 3px -3px 2px rgba(0, 133, 255, 0.1);
 }
 
 .divider {
