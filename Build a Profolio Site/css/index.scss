@@ -2,7 +2,6 @@
  Setting Variables
  **********/
 
-$mainColor: #1a1f3e;
 $color-logo: #4689c7;
 $color-text: #000;
 $color-bg: #fff;
@@ -28,7 +27,7 @@ body {
   padding-right: 0 !important;
   font-family: 'Lato', serif;
   min-height: 100vh;
-  color: $mainColor;
+  color: $color-logo;
 }
 
 .logo {
@@ -40,11 +39,19 @@ nav.socialLink a {
   color: $color-logo;
 }
 
+.quickLink {
+  background: transparent !important;
+  text-decoration: none;
+}
+
 .quickLink li {
   font-size: 10px;
   color: $color-logo;
+}
+
+.quickLink li a {
+  color: $color-logo;
   text-decoration: none;
-  background: transparent !important;
 }
 
 .myName {
@@ -77,4 +84,17 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+.card {
+  color: $color-text;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+}
+
+button {
+  color: $color-logo;
 }
