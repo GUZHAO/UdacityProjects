@@ -20,6 +20,21 @@ body {
 a {
   text-decoration: none !important; }
 
+img {
+  width: 140px;
+  height: 140px; }
+
+canvas {
+  display: block;
+  vertical-align: bottom; }
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background-size: cover;
+  background: #fff no-repeat 50% 50%; }
+
 .logo {
   width: 20px;
   height: 20px; }
@@ -32,7 +47,7 @@ nav.socialLink a {
   text-decoration: none; }
 
 .quickLink li {
-  font-size: 10px;
+  font-size: 12px;
   color: #4689c7; }
 
 .quickLink li a {
@@ -54,30 +69,15 @@ nav.socialLink a {
   -o-transform: rotate(1deg);
   transform: rotate(1deg); }
 
-canvas {
-  display: block;
-  vertical-align: bottom; }
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 25%;
-  background-size: cover;
-  background: #fff no-repeat 50% 50%; }
-
 .card {
   color: #000; }
-
-img {
-  width: 140px;
-  height: 140px; }
-
-button {
-  color: #4689c7; }
 
 footer a {
   color: #7952b3; }
 
+/*
+ * Button Effect
+ */
 .btn {
   position: relative;
   border: none;
