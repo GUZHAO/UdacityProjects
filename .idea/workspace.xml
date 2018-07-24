@@ -15,7 +15,7 @@
     <session id="-1278720881">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -52,7 +52,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2663">
@@ -64,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2440">
+            <state relative-caret-position="2592">
               <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
             </state>
           </provider>
@@ -135,24 +135,6 @@
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -202,16 +184,15 @@
       <workItem from="1532362070529" duration="171000" />
       <workItem from="1532362259930" duration="198000" />
       <workItem from="1532362477244" duration="209000" />
-      <workItem from="1532362705562" duration="16925000" />
+      <workItem from="1532362705562" duration="17072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33410000" />
+    <option name="totallyTimeSpent" value="33557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18335684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -256,6 +237,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2663">
@@ -263,13 +251,6 @@
           <folding>
             <marker date="1532465655710" expanded="true" signature="2842:2904" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2440">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
         </state>
       </provider>
     </entry>
