@@ -83,6 +83,7 @@ nav.socialLink a {
 footer a {
   color: #7952b3; }
 
+/* Button Effect Inspired by David Conner CODEPEN https://codepen.io/davidicus/pen/emgQKJ */
 .btn {
   font-size: 18px;
   position: relative;

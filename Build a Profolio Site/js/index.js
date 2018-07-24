@@ -1,6 +1,6 @@
 /*
  *
- * generate header background using particlesjs
+ * Generate header background using particlesjs
  *
  */
 particlesJS("particles-js", {
