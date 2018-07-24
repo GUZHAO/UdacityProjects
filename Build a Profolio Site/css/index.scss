@@ -1,14 +1,18 @@
-/**********
- Setting Variables
- **********/
+/*
+ *
+ *Setting Variables
+ *
+ */
 
-$color-logo: #4689c7;
+$color-theme: #4689c7;
 $color-text: #000;
 $color-bg: #fff;
 
-/**********
- Main Style
- **********/
+/*
+ *
+ *Universal Style
+ *
+ */
 
 html {
   box-sizing: border-box;
@@ -23,7 +27,7 @@ body {
   padding-right: 0 !important;
   font-family: 'Lato', serif;
   min-height: 100vh;
-  color: $color-logo;
+  color: $color-theme;
 }
 
 a {
@@ -54,7 +58,7 @@ canvas {
 }
 
 nav.socialLink a {
-  color: $color-logo;
+  color: $color-theme;
 }
 
 .quickLink {
@@ -64,24 +68,24 @@ nav.socialLink a {
 
 .quickLink li {
   font-size: 12px;
-  color: $color-logo;
+  color: $color-theme;
 }
 
 .quickLink li a {
-  color: $color-logo;
+  color: $color-theme;
   text-decoration: none;
 }
 
 .myName {
   font-size: 60px;
-  color: $color-logo;
+  color: $color-theme;
   text-shadow: 3px -3px 2px rgba(0, 133, 255, 0.1);
 }
 
 .divider {
   top: -10px;
   z-index: 9999;
-  border-top: 1px solid $color-logo;
+  border-top: 1px solid $color-theme;
   -webkit-transform: rotate(1deg);
   -moz-transform: rotate(1deg);
   -ms-transform: rotate(1deg);
@@ -108,7 +112,7 @@ footer a {
   outline: none;
   font-size: 18px;
   margin: auto;
-  color: $color-logo;
+  color: $color-theme;
 }
 
 .btn:after,
@@ -120,7 +124,7 @@ footer a {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: $color-logo;
+  background-color: $color-theme;
   transition: all 0.3s ease;
   transform: scale(0.85);
 }

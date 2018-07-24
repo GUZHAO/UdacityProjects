@@ -1,3 +1,8 @@
+/*
+ *
+ * generate header background using particlesjs
+ *
+ */
 particlesJS("particles-js", {
     "particles": {
         "number": {

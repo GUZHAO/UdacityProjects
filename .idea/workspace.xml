@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build a Profolio Site/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build a Profolio Site/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Build a Profolio Site/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build a Profolio Site/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Build a Profolio Site/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,37 +31,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="877" />
-          <entry key="scss" value="452" />
+          <entry key="html" value="882" />
+          <entry key="js" value="62" />
+          <entry key="scss" value="484" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="877" />
-          <entry key="SCSS" value="452" />
+          <entry key="HTML" value="882" />
+          <entry key="JavaScript" value="62" />
+          <entry key="SCSS" value="484" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
+            <state relative-caret-position="2856">
+              <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
               <folding>
-                <marker date="1532401428838" expanded="true" signature="2831:2893" ph="..." />
+                <marker date="1532401442980" expanded="true" signature="2831:2893" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="144">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -70,8 +71,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Build a Profolio Site/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="96">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +100,9 @@
         <option value="$PROJECT_DIR$/Build a Profolio Site/index.scss" />
         <option value="$PROJECT_DIR$/Build a Profolio Site/JS/index.js" />
         <option value="$PROJECT_DIR$/Build a Profolio Site/CSS/index.scss" />
-        <option value="$PROJECT_DIR$/Build a Profolio Site/css/index.scss" />
         <option value="$PROJECT_DIR$/Build a Profolio Site/index.html" />
+        <option value="$PROJECT_DIR$/Build a Profolio Site/js/index.js" />
+        <option value="$PROJECT_DIR$/Build a Profolio Site/css/index.scss" />
       </list>
     </option>
   </component>
@@ -124,23 +129,6 @@
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Build a Profolio Site" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,12 +179,12 @@
       <workItem from="1532362070529" duration="171000" />
       <workItem from="1532362259930" duration="198000" />
       <workItem from="1532362477244" duration="209000" />
-      <workItem from="1532362705562" duration="13610000" />
+      <workItem from="1532362705562" duration="14097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30095000" />
+    <option name="totallyTimeSpent" value="30582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -231,27 +219,30 @@
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+          <folding>
+            <marker date="1532401442980" expanded="true" signature="2831:2893" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="96">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="116" column="21" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
-          <folding>
-            <marker date="1532401428838" expanded="true" signature="2831:2893" ph="..." />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
