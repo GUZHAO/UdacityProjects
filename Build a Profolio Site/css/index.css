@@ -15,9 +15,9 @@ html {
   box-sizing: inherit; }
 
 body {
+  font-family: 'Lato', serif;
   padding-left: 0 !important;
   padding-right: 0 !important;
-  font-family: 'Lato', serif;
   min-height: 100vh;
   color: #4689c7; }
 
@@ -28,6 +28,11 @@ img {
   width: 140px;
   height: 140px; }
 
+/*
+ *
+ * Main Style
+ *
+ */
 canvas {
   display: block;
   vertical-align: bottom; }
@@ -55,8 +60,7 @@ nav.socialLink a {
   color: #4689c7; }
 
 .quickLink li a {
-  color: #4689c7;
-  text-decoration: none; }
+  color: #4689c7; }
 
 .myName {
   font-size: 60px;
@@ -79,16 +83,11 @@ nav.socialLink a {
 footer a {
   color: #7952b3; }
 
-/*
- * Button Effect
- */
 .btn {
+  font-size: 18px;
   position: relative;
   border: none;
-  background-color: transparent;
-  cursor: pointer;
   outline: none;
-  font-size: 18px;
   margin: auto;
   color: #4689c7; }
 
