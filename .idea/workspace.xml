@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/Memory Game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Memory Game/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" afterDir="false" />
     </list>
@@ -71,8 +75,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="709">
-                  <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+                <state relative-caret-position="85">
+                  <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -173,24 +177,6 @@
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
               <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -266,7 +252,7 @@
       <workItem from="1532362259930" duration="198000" />
       <workItem from="1532362477244" duration="209000" />
       <workItem from="1532362705562" duration="17072000" />
-      <workItem from="1535418537233" duration="16978000" />
+      <workItem from="1535418537233" duration="17131000" />
     </task>
     <servers />
   </component>
@@ -300,13 +286,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50535000" />
+    <option name="totallyTimeSpent" value="50688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14527504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2947814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
