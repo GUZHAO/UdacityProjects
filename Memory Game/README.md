@@ -20,4 +20,4 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Flowchart
-![Workflow](/Users/guzhao/WebstormProjects/UdacityProjects/Memory Game/img/memoryGame.png)
+![Workflow](https://github.com/GUZHAO/UdacityProjects/blob/master/Memory%20Game/img/memoryGame.png)
