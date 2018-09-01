@@ -4,8 +4,8 @@
 let card = document.getElementsByClassName('card');
 // Convert to array for shuffle function use
 let cardList = [...card];
-console.log(cardList[1].children);
-
+let openedCard = [];
+let move = 0;
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -31,9 +31,12 @@ function shuffle(array) {
 const shuffledDeck = shuffle(cardList);
 const addDeck = document.querySelector('.deck');
 for (let aCard of shuffledDeck) {
+    aCard.classList.remove('open', 'show', 'match');
     addDeck.appendChild(aCard);
 }
 
+let counter = document.querySelector('.moves');
+counter.innerHTML = move;
 
 /*
  * set up the event listener for a card. If a card is clicked:
@@ -46,8 +49,10 @@ for (let aCard of shuffledDeck) {
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
 
+
 for (let aCard of shuffledDeck) {
     aCard.addEventListener('click', flipCard);
+    aCard.addEventListener('click', checkCard);
 }
 
 function flipCard() {
@@ -55,33 +60,39 @@ function flipCard() {
     this.classList.toggle('show');
 }
 
-function openCard() {
-    let openedCard = [];
+function checkCard() {
     openedCard.push(this);
-    console.log(openedCard);
     if (openedCard.length === 2) {
-        if (openedCard[0].children === openedCard[1].children) {
+        countMove();
+        if (openedCard[0].isEqualNode(openedCard[1])) {
             matchedCards();
         }
         else {
-            unmatchedCards();
+            setTimeout(unmatchedCards, 1000);
         }
     }
     else {
+        openedCard = [];
     }
-    countMove();
 }
 
 function matchedCards() {
-
+    openedCard.forEach(function (element) {
+        element.classList.add('match');
+        element.classList.remove('open', 'show');
+    });
+    openedCard = [];
 }
 
 function unmatchedCards() {
-
+    openedCard[0].classList.remove('open', 'show');
+    openedCard[1].classList.remove('open', 'show');
+    openedCard = [];
 }
 
 function countMove() {
-
+    move++;
+    counter.innerHTML = move;
 }
 
 function score() {
