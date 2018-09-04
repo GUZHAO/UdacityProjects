@@ -67,12 +67,14 @@ for (let aCard of shuffledDeck) {
 }
 
 function flip() {
-    this.classList.add('open', 'show');
+    this.classList.toggle('open');
+    this.classList.toggle('show');
     this.style.pointerEvents = 'none';
 }
 
 function check() {
     openedCard.push(this);
+    console.log(openedCard.length);
     if (openedCard.length === 2) {
         count();
         if (openedCard[0].isEqualNode(openedCard[1])) {
@@ -90,10 +92,11 @@ function check() {
 }
 
 function match() {
+    console.log(openedCard[0].isEqualNode(openedCard[1]));
     openedCard.forEach(function (element) {
-        element.classList.remove('open', 'show');
         element.classList.add('match');
-        element.style.pointerEvents = 'none';
+        // element.classList.remove('open', 'show');
+        // element.style.pointerEvents = 'none';
     });
     openedCard = [];
 }
