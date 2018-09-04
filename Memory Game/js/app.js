@@ -2,10 +2,14 @@
  * Create a list that holds all of your cards
  */
 let card = document.getElementsByClassName('card');
+let resetIcon = document.querySelector('.restart');
+let move = 0;
+let points = 0;
+let counter = document.querySelector('.moves');
 // Convert to array for shuffle function use
 let cardList = [...card];
 let openedCard = [];
-let move = 0;
+
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -28,15 +32,21 @@ function shuffle(array) {
     return array;
 }
 
-const shuffledDeck = shuffle(cardList);
-const addDeck = document.querySelector('.deck');
-for (let aCard of shuffledDeck) {
-    aCard.classList.remove('open', 'show', 'match');
-    addDeck.appendChild(aCard);
+let shuffledDeck = shuffle(cardList);
+let addDeck = document.querySelector('.deck');
+
+//Reset the game
+function reset() {
+    for (let aCard of shuffledDeck) {
+        aCard.classList.remove('open', 'show', 'match');
+        addDeck.appendChild(aCard);
+    }
+    move = 0;
+    counter.innerHTML = move;
+    points = 0;
 }
 
-let counter = document.querySelector('.moves');
-counter.innerHTML = move;
+reset();
 
 /*
  * set up the event listener for a card. If a card is clicked:
@@ -49,52 +59,120 @@ counter.innerHTML = move;
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
 
+resetIcon.addEventListener('click', reset);
 
 for (let aCard of shuffledDeck) {
-    aCard.addEventListener('click', flipCard);
-    aCard.addEventListener('click', checkCard);
+    aCard.addEventListener('click', flip);
+    aCard.addEventListener('click', check);
 }
 
-function flipCard() {
-    this.classList.toggle('open');
-    this.classList.toggle('show');
+function flip() {
+    this.classList.add('open', 'show');
+    this.style.pointerEvents = 'none';
 }
 
-function checkCard() {
+function check() {
     openedCard.push(this);
     if (openedCard.length === 2) {
-        countMove();
+        count();
         if (openedCard[0].isEqualNode(openedCard[1])) {
-            matchedCards();
+            match();
+            points++;
         }
         else {
-            setTimeout(unmatchedCards, 1000);
+            setTimeout(mismatch, 1000);
+            freeze();
         }
-    }
-    else {
-        openedCard = [];
+        setTimeout(unfreeze, 1000);
+        setTimeout(score, 1000);
+
     }
 }
 
-function matchedCards() {
+function match() {
     openedCard.forEach(function (element) {
+        element.classList.remove('open', 'show');
         element.classList.add('match');
+        element.style.pointerEvents = 'none';
+    });
+    openedCard = [];
+}
+
+function mismatch() {
+    openedCard.forEach(function (element) {
         element.classList.remove('open', 'show');
     });
     openedCard = [];
 }
 
-function unmatchedCards() {
-    openedCard[0].classList.remove('open', 'show');
-    openedCard[1].classList.remove('open', 'show');
-    openedCard = [];
+function freeze() {
+    for (let element of shuffledDeck) {
+        element.style.pointerEvents = 'none';
+    }
 }
 
-function countMove() {
+function unfreeze() {
+    for (let element of shuffledDeck) {
+        if (!element.classList.contains('match')) {
+            element.style.pointerEvents = 'auto';
+        }
+    }
+}
+
+function count() {
     move++;
     counter.innerHTML = move;
+    if (move > 10 && move <= 18) {
+        document.getElementById('thirdStar').classList.remove('fas', 'fa-star');
+        document.getElementById('thirdStar').classList.add('far', 'fa-star');
+    } else if (move > 18 && move <= 26) {
+        document.getElementById('secondStar').classList.remove('fas', 'fa-star');
+        document.getElementById('secondStar').classList.add('far', 'fa-star');
+    } else if (move > 26) {
+        document.getElementById('firstStar').classList.remove('fas', 'fa-star');
+        document.getElementById('firstStar').classList.add('far', 'fa-star');
+    }
 }
 
-function score() {
+let modal = document.getElementById('myModal');
+let span = document.getElementsByClassName('close')[0];
+let scoreMsg = document.getElementsByClassName('score')[0];
 
+function score() {
+    if (points === 8) {
+        scoreMsg.innerHTML = 'Nice job! Your used ' + move + ' moves in ' + timeCount + ' seconds to finish the game.';
+        modal.style.display = "block";
+        stopTimer();
+        reset();
+    }
+}
+
+span.onclick = function () {
+    modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
+
+addDeck.addEventListener('click', triggerTimer, {once: true});
+
+
+let timeCount = 0;
+let timeIt = document.getElementById('seconds');
+let timeInterval = 0;
+
+function triggerTimer() {
+    timeInterval = setInterval(startTimer, 1000);
+}
+
+function startTimer() {
+    timeCount++;
+    timeIt.innerText = "You have been playing for " + timeCount + " seconds.";
+}
+
+function stopTimer() {
+    clearInterval(timeInterval);
 }
