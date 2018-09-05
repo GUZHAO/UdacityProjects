@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,50 +20,50 @@
     <session id="-1278720881">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="38" />
-          <entry key="css" value="95" />
-          <entry key="html" value="1199" />
-          <entry key="js" value="5288" />
+          <entry key="css" value="152" />
+          <entry key="html" value="1346" />
+          <entry key="js" value="5794" />
           <entry key="md" value="43" />
           <entry key="scss" value="558" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="95" />
-          <entry key="HTML" value="1199" />
-          <entry key="JavaScript" value="5326" />
+          <entry key="CSS" value="152" />
+          <entry key="HTML" value="1346" />
+          <entry key="JavaScript" value="5832" />
           <entry key="Markdown" value="43" />
           <entry key="SCSS" value="558" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="13" />
-          <entry key="html" value="17" />
-          <entry key="js" value="16" />
+          <entry key="css" value="17" />
+          <entry key="html" value="18" />
+          <entry key="js" value="18" />
           <entry key="md" value="7" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="13" />
-          <entry key="HTML" value="17" />
+          <entry key="CSS" value="17" />
+          <entry key="HTML" value="18" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="7" />
         </counts>
       </usages-collector>
@@ -71,13 +74,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+            <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2232">
-                  <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state relative-caret-position="378">
+                  <caret line="67" selection-start-line="67" selection-end-line="68" />
                 </state>
               </provider>
             </entry>
@@ -89,8 +89,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+                <state relative-caret-position="1884">
+                  <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -123,9 +123,9 @@
         <option value="$PROJECT_DIR$/Memory Game/js/test.js" />
         <option value="$PROJECT_DIR$/Build a Profolio Site/README.md" />
         <option value="$PROJECT_DIR$/Memory Game/README.md" />
-        <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
-        <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
+        <option value="$PROJECT_DIR$/Memory Game/index.html" />
+        <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
       </list>
     </option>
   </component>
@@ -166,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,6 +200,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +277,8 @@
       <workItem from="1532362477244" duration="209000" />
       <workItem from="1532362705562" duration="17072000" />
       <workItem from="1535418537233" duration="36738000" />
-      <workItem from="1535831251578" duration="33673000" />
+      <workItem from="1535831251578" duration="39962000" />
+      <workItem from="1536090380754" duration="8525000" />
     </task>
     <servers />
   </component>
@@ -311,7 +312,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103968000" />
+    <option name="totallyTimeSpent" value="118782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -424,10 +425,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/tingle-master/dist/tingle.js">
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/tingle-master/dist/tingle.js" />
+    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="1884">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -436,25 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="67" selection-start-line="67" selection-end-line="68" />
         </state>
       </provider>
     </entry>

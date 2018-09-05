@@ -2,12 +2,18 @@
  * Create a list that holds all of your cards
  */
 let card = document.getElementsByClassName('card');
-let resetIcon = document.querySelector('.restart');
-let move = 0;
-let points = 0;
-let counter = document.querySelector('.moves');
-// Convert to array for shuffle function use
 let cardList = [...card];
+
+//initiate reset related variables
+let counter = document.querySelector('.moves');
+counter.innerHTML = 'Not Started';
+let timeIt = document.getElementById('seconds');
+let move = 0;
+let stars = 3;
+let points = 0;
+let timeCount = 0;
+let timeInterval = 0;
+//initiate an array for opened cards
 let openedCard = [];
 
 /*
@@ -34,19 +40,10 @@ function shuffle(array) {
 
 let shuffledDeck = shuffle(cardList);
 let addDeck = document.querySelector('.deck');
-
-//Reset the game
-function reset() {
-    for (let aCard of shuffledDeck) {
-        aCard.classList.remove('open', 'show', 'match');
-        addDeck.appendChild(aCard);
-    }
-    move = 0;
-    counter.innerHTML = move;
-    points = 0;
+for (let aCard of shuffledDeck) {
+    aCard.classList.remove('open', 'show', 'match');
+    addDeck.appendChild(aCard);
 }
-
-reset();
 
 /*
  * set up the event listener for a card. If a card is clicked:
@@ -58,8 +55,6 @@ reset();
  *    + increment the move counter and display it on the page (put this functionality in another function that you call from this one)
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
-
-resetIcon.addEventListener('click', reset);
 
 for (let aCard of shuffledDeck) {
     aCard.addEventListener('click', flip);
@@ -74,15 +69,15 @@ function flip() {
 
 function check() {
     openedCard.push(this);
-    console.log(openedCard.length);
     if (openedCard.length === 2) {
         count();
-        if (openedCard[0].isEqualNode(openedCard[1])) {
+        // if (openedCard[0].isEqualNode(openedCard[1])) {
+        if (openedCard[0].innerHTML === openedCard[1].innerHTML) {
             match();
             points++;
         }
         else {
-            setTimeout(mismatch, 1000);
+            setTimeout(mismatch,1000);
             freeze();
         }
         setTimeout(unfreeze, 1000);
@@ -92,9 +87,9 @@ function check() {
 }
 
 function match() {
-    console.log(openedCard[0].isEqualNode(openedCard[1]));
     openedCard.forEach(function (element) {
         element.classList.add('match');
+
         // element.classList.remove('open', 'show');
         // element.style.pointerEvents = 'none';
     });
@@ -125,15 +120,14 @@ function unfreeze() {
 function count() {
     move++;
     counter.innerHTML = move;
-    if (move > 10 && move <= 18) {
+    if (move > 12 && move <= 24) {
         document.getElementById('thirdStar').classList.remove('fas', 'fa-star');
         document.getElementById('thirdStar').classList.add('far', 'fa-star');
-    } else if (move > 18 && move <= 26) {
+        stars = 2;
+    } else if (move > 24) {
         document.getElementById('secondStar').classList.remove('fas', 'fa-star');
         document.getElementById('secondStar').classList.add('far', 'fa-star');
-    } else if (move > 26) {
-        document.getElementById('firstStar').classList.remove('fas', 'fa-star');
-        document.getElementById('firstStar').classList.add('far', 'fa-star');
+        stars = 1;
     }
 }
 
@@ -143,10 +137,9 @@ let scoreMsg = document.getElementsByClassName('score')[0];
 
 function score() {
     if (points === 8) {
-        scoreMsg.innerHTML = 'Nice job! Your used ' + move + ' moves in ' + timeCount + ' seconds to finish the game.';
+        scoreMsg.innerHTML = 'Nice job! You star rating is ' + stars + ' and you used ' + move + ' moves in ' + timeCount + ' seconds to finish the game.';
         modal.style.display = "block";
         stopTimer();
-        reset();
     }
 }
 
@@ -154,18 +147,13 @@ span.onclick = function () {
     modal.style.display = "none";
 };
 
-window.onclick = function (event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
-    }
-};
+// window.onclick = function (event) {
+//     if (event.target === modal) {
+//         modal.style.display = "none";
+//     }
+// };
 
 addDeck.addEventListener('click', triggerTimer, {once: true});
-
-
-let timeCount = 0;
-let timeIt = document.getElementById('seconds');
-let timeInterval = 0;
 
 function triggerTimer() {
     timeInterval = setInterval(startTimer, 1000);
