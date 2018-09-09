@@ -137,7 +137,7 @@ let scoreMsg = document.getElementsByClassName('score')[0];
 
 function score() {
     if (points === 8) {
-        scoreMsg.innerHTML = 'Nice job! You star rating is ' + stars + ' and you used ' + move + ' moves in ' + timeCount + ' seconds to finish the game.';
+        scoreMsg.innerHTML = 'Nice job! Your star rating is ' + stars + ' and you used ' + move + ' moves in ' + timeCount + ' seconds to finish the game.';
         modal.style.display = "block";
         stopTimer();
     }

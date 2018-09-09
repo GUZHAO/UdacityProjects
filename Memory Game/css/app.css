@@ -18,7 +18,7 @@ body {
 
 body {
     background: #fedd32;
-    font-family: 'Coda', cursive;
+    font-family: 'Lato', cursive;
 }
 
 .container {
@@ -28,14 +28,50 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
+
+h3 {
+    display: flex;
+    flex-direction: row;
     font-weight: 300;
+    align-items: center;
 }
 
-.timer {
-
+.restart {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 1em;
+    cursor: pointer;
 }
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.score-panel .timer {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;
+}
+
+.score-panel .stars {
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+}
+
 
 /*
  * Styles for the deck of cards
@@ -57,7 +93,8 @@ h1 {
 .deck .card {
     height: 125px;
     width: 125px;
-    background: #2e3d49;
+    background: #fff;
+
     font-size: 0;
     color: #ffffff;
     border-radius: 8px;
@@ -65,7 +102,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);*/
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
     transition: all .2s ease-in-out;
 }
 
@@ -87,31 +124,6 @@ h1 {
     font-size: 33px;
 }
 
-/*
- * Styles for the Score Panel
- */
-
-.score-panel {
-    text-align: left;
-    width: 345px;
-    margin-bottom: 10px;
-}
-
-.score-panel .stars {
-    padding: 0;
-    display: inline-block;
-    margin: 0 5px 0 0;
-}
-
-.score-panel .stars li {
-    list-style: none;
-    display: inline-block;
-}
-
-.score-panel .restart {
-    float: right;
-    cursor: pointer;
-}
 
 /* The Modal (background) */
 .modal {
@@ -149,4 +161,29 @@ h1 {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .deck {
+        width: 450px;
+        min-height: 580px;
+    }
+
+    .deck .card {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .deck {
+        width: 450px;
+        min-height: 580px;
+    }
+
+    .deck .card {
+        height: 80px;
+        width: 80px;
+    }
 }
