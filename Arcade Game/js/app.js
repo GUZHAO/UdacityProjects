@@ -19,10 +19,11 @@ Enemy.prototype.update = function (dt) {
     // all computers.
     this.x += dt * this.speed;
     // Handles collision with the Player
-    if (player.x < this.x + 90 &&
+    if (player.x < this.x + 81 &&
         player.y < this.y + 60 &&
-        player.x + 90 > this.x &&
+        player.x + 81 > this.x &&
         player.y + 60 > this.y) {
+        alert('stop');
         player.x = 202;
         player.y = 405;
     }
