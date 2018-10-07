@@ -24,7 +24,7 @@ Enemy.prototype.update = function (dt) {
         player.y < this.y + 60 &&
         player.x + 81 > this.x &&
         player.y + 60 > this.y) {
-        alert('stop');
+        // alert('stop');
         player.x = 202;
         player.y = 385;
     }
