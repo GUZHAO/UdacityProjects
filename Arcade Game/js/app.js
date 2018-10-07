@@ -19,13 +19,14 @@ Enemy.prototype.update = function (dt) {
     // all computers.
     this.x += dt * this.speed;
     // Handles collision with the Player
+    // https://stackoverflow.com/questions/13916966/adding-collision-detection-to-images-drawn-on-canvas
     if (player.x < this.x + 81 &&
         player.y < this.y + 60 &&
         player.x + 81 > this.x &&
         player.y + 60 > this.y) {
         alert('stop');
         player.x = 202;
-        player.y = 405;
+        player.y = 385;
     }
     // Enemy speed changes after first move
     if (this.x > 510) {
@@ -74,7 +75,7 @@ Player.prototype.handleInput = function (key) {
     if (this.y < 0) {
         setTimeout(() => {
             this.x = 202;
-            this.y = 405;
+            this.y = 385;
         }, 800);
     }
 };
@@ -89,7 +90,7 @@ const allEnemies = [];
 });
 
 // Place the player object in a variable called player
-const player = new Player(202, 405);
+const player = new Player(202, 385);
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
