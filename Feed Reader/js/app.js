@@ -7,7 +7,7 @@
  */
 
 // The names and URLs to all of the feeds we'd like available.
-var allFeeds = [
+const allFeeds = [
     {
         name: 'Udacity Blog',
         url: 'http://blog.udacity.com/feed'
@@ -41,7 +41,7 @@ function init() {
  * which will be called after everything has run successfully.
  */
  function loadFeed(id, cb) {
-     var feedUrl = allFeeds[id].url,
+     const feedUrl = allFeeds[id].url,
          feedName = allFeeds[id].name;
 
      $.ajax({
