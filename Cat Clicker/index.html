@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="container">
+<img id="cat" src="img/charlie-deets-517076-unsplash.jpg" alt="Photo by Charlie Deets on Unsplash">
+<p>The cat has been clicked for <span id="timeClicked">0</span> score.</p>
+<script>
+    let times = 0;
+    const catImg = document.getElementById('cat');
+    catImg.addEventListener('click', () => {
+        times++;
+        document.getElementById('timeClicked').innerHTML = times;
+    }, false);
+</script>
+</body>
+</html>
