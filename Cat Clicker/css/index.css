@@ -8,19 +8,26 @@ html {
 
 html,
 body {
-  width: 100%;
+  width: 95%;
   height: 100%;
-  margin: 0;
+  margin: auto;
   padding: 0; }
 
 body {
   font-family: 'Lato', cursive; }
 
-.container {
+#container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: row; }
+
+.flex-item1 {
+  align-self: flex-start;
+  flex-grow: 0.5; }
+
+.flex-item2 {
+  align-self: flex-end; }
 
 img {
   width: 400px;

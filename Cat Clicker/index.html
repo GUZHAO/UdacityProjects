@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Cat Clicker</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
 </head>
-<body class="container">
-<img id="cat" src="img/charlie-deets-517076-unsplash.jpg" alt="Photo by Charlie Deets on Unsplash">
-<p>The cat has been clicked for <span id="timeClicked">0</span> score.</p>
-<script>
-    let times = 0;
-    const catImg = document.getElementById('cat');
-    catImg.addEventListener('click', () => {
-        times++;
-        document.getElementById('timeClicked').innerHTML = times;
-    }, false);
-</script>
+<body>
+<ul id="cat-list"></ul>
+<div id="cat" style="width: 500px">
+    <h2 id="cat-name"></h2>
+    <img id="cat-img" src="" alt="">
+    <div id="cat-count"></div>
+
+    <!-- My first try and made me remember that this is certainly not the optimal or feasible way to accomplish the requirement-->
+    <!--<div class="flex-item1">-->
+    <!--<img id="cat1" src="img/charlie-deets-517076-unsplash.jpg" alt="Photo by Charlie Deets on Unsplash">-->
+    <!--<p>The cat has been clicked for <span id="timeClicked1">0</span> .</p>-->
+    <!--<script>-->
+    <!--let times1 = 0;-->
+    <!--const catImg1 = document.getElementById('cat1');-->
+    <!--catImg1.addEventListener('click', () => {-->
+    <!--times1++;-->
+    <!--document.getElementById('timeClicked1').innerHTML = times1;-->
+    <!--}, false);-->
+    <!--</script>-->
+    <!--</div>-->
+    <!--<div class="flex-item2">-->
+    <!--<img id="cat2" src="img/charlie-deets-517076-unsplash.jpg" alt="Photo by Charlie Deets on Unsplash">-->
+    <!--<p>The cat has been clicked for <span id="timeClicked2">0</span> .</p>-->
+    <!--<script>-->
+    <!--let times2 = 0;-->
+    <!--const catImg2 = document.getElementById('cat2');-->
+    <!--catImg2.addEventListener('click', () => {-->
+    <!--times2++;-->
+    <!--document.getElementById('timeClicked2').innerHTML = times2;-->
+    <!--}, false);-->
+    <!--</script>-->
+    <!--</div>-->
+    <script src="js/index.js"></script>
+</div>
 </body>
 </html>

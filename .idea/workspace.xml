@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Cat Clicker/css/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cat Clicker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cat Clicker/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cat Clicker/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed Reader/jasmine/spec/feedreader.js" beforeDir="false" afterPath="$PROJECT_DIR$/Feed Reader/jasmine/spec/feedreader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat Clicker/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat Clicker/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat Clicker/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat Clicker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat Clicker/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,70 +23,72 @@
     <session id="-1278720881">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="38" />
           <entry key="css" value="642" />
-          <entry key="html" value="2075" />
-          <entry key="js" value="8062" />
+          <entry key="html" value="2610" />
+          <entry key="js" value="10201" />
           <entry key="md" value="1507" />
-          <entry key="scss" value="597" />
+          <entry key="scss" value="739" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="642" />
-          <entry key="HTML" value="2075" />
-          <entry key="JavaScript" value="8100" />
+          <entry key="HTML" value="2610" />
+          <entry key="JavaScript" value="10239" />
           <entry key="Markdown" value="1507" />
-          <entry key="SCSS" value="597" />
+          <entry key="SCSS" value="739" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="24" />
-          <entry key="html" value="43" />
-          <entry key="js" value="71" />
+          <entry key="html" value="46" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="75" />
           <entry key="md" value="15" />
           <entry key="png" value="40" />
-          <entry key="scss" value="3" />
+          <entry key="scss" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="24" />
-          <entry key="HTML" value="43" />
-          <entry key="Image" value="40" />
-          <entry key="JavaScript" value="71" />
+          <entry key="HTML" value="46" />
+          <entry key="Image" value="44" />
+          <entry key="JavaScript" value="75" />
           <entry key="Markdown" value="15" />
-          <entry key="SCSS" value="3" />
+          <entry key="SCSS" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45991904">
+    <splitter split-orientation="horizontal" split-proportion="0.4276423">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+            <entry file="file://$PROJECT_DIR$/Cat Clicker/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="864">
-                  <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+                <state relative-caret-position="144">
+                  <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
                   <folding>
-                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -93,12 +97,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Cat Clicker/index.html">
+            <entry file="file://$PROJECT_DIR$/Cat Clicker/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+                <state relative-caret-position="294">
+                  <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -143,10 +147,11 @@
         <option value="$PROJECT_DIR$/Feed Reader/README.md" />
         <option value="$PROJECT_DIR$/Feed Reader/jasmine/spec/feedreader.js" />
         <option value="$PROJECT_DIR$/Cat Clicker/index.scss" />
-        <option value="$PROJECT_DIR$/Cat Clicker/css/index.scss" />
-        <option value="$PROJECT_DIR$/Cat Clicker/index.js" />
         <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
+        <option value="$PROJECT_DIR$/Cat Clicker/index.js" />
+        <option value="$PROJECT_DIR$/Cat Clicker/css/index.scss" />
         <option value="$PROJECT_DIR$/Cat Clicker/index.html" />
+        <option value="$PROJECT_DIR$/Cat Clicker/js/index.js" />
       </list>
     </option>
   </component>
@@ -208,12 +213,13 @@
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
+              <item name="Cat Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
+              <item name="Cat Clicker" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -226,22 +232,24 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="/usr/local/lib/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Build a Profolio Site" />
+      <recent name="$PROJECT_DIR$/Memory Game" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cat Clicker/js" />
       <recent name="$PROJECT_DIR$/Cat Clicker/css" />
       <recent name="$PROJECT_DIR$/Cat Clicker/img" />
       <recent name="$PROJECT_DIR$/Memory Game" />
       <recent name="$PROJECT_DIR$/Build a Profolio Site/CSS" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Build a Profolio Site" />
-      <recent name="$PROJECT_DIR$/Memory Game" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +316,12 @@
       <workItem from="1538702913423" duration="7000" />
       <workItem from="1538702936282" duration="1444000" />
       <workItem from="1538745613717" duration="28500000" />
-      <workItem from="1539043225087" duration="12919000" />
+      <workItem from="1539043225087" duration="13634000" />
+      <workItem from="1539219576281" duration="10030000" />
+      <workItem from="1539367881650" duration="222000" />
+      <workItem from="1539373338341" duration="802000" />
+      <workItem from="1539570880501" duration="12933000" />
+      <workItem from="1539711793726" duration="5010000" />
     </task>
     <servers />
   </component>
@@ -342,13 +355,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172366000" />
+    <option name="totallyTimeSpent" value="202078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12905501" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1325811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -567,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,10 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1539031599013" expanded="true" signature="306:335" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,30 +611,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cat Clicker/css/index.scss">
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cat Clicker/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Cat Clicker/img/antonio-lapa-93448-unsplash.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+    <entry file="file://$PROJECT_DIR$/Cat Clicker/img/charlie-deets-517076-unsplash.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cat Clicker/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="97">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cat Clicker/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="144">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cat Clicker/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
         </state>
       </provider>
     </entry>
