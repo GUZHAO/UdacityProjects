@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Restaurant Reviews/css/styles_origin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant Reviews/js/indexController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Restaurant Reviews/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant Reviews/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant Reviews/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant Reviews/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant Reviews/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +37,8 @@
           <entry key="JavaScript Console" value="38" />
           <entry key="css" value="919" />
           <entry key="html" value="2888" />
-          <entry key="js" value="10478" />
-          <entry key="md" value="1507" />
+          <entry key="js" value="10479" />
+          <entry key="md" value="2273" />
           <entry key="scss" value="739" />
         </counts>
       </usages-collector>
@@ -47,8 +46,8 @@
         <counts>
           <entry key="CSS" value="919" />
           <entry key="HTML" value="2888" />
-          <entry key="JavaScript" value="10516" />
-          <entry key="Markdown" value="1507" />
+          <entry key="JavaScript" value="10517" />
+          <entry key="Markdown" value="2273" />
           <entry key="SCSS" value="739" />
         </counts>
       </usages-collector>
@@ -58,9 +57,9 @@
           <entry key="css" value="29" />
           <entry key="html" value="71" />
           <entry key="jpg" value="4" />
-          <entry key="js" value="107" />
+          <entry key="js" value="111" />
           <entry key="json" value="4" />
-          <entry key="md" value="15" />
+          <entry key="md" value="22" />
           <entry key="png" value="40" />
           <entry key="scss" value="6" />
         </counts>
@@ -71,8 +70,8 @@
           <entry key="HTML" value="71" />
           <entry key="Image" value="44" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="107" />
-          <entry key="Markdown" value="15" />
+          <entry key="JavaScript" value="111" />
+          <entry key="Markdown" value="22" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="6" />
         </counts>
@@ -82,10 +81,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <entry file="file://$PROJECT_DIR$/Restaurant Reviews/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="528">
+                <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -128,7 +130,6 @@
         <option value="$PROJECT_DIR$/Build a Profolio Site/README.md" />
         <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
-        <option value="$PROJECT_DIR$/Memory Game/README.md" />
         <option value="$PROJECT_DIR$/Arcade Game/index.html" />
         <option value="$PROJECT_DIR$/Arcade Game/js/engine.js" />
         <option value="$PROJECT_DIR$/Arcade Game/README.md" />
@@ -150,8 +151,10 @@
         <option value="$PROJECT_DIR$/Restaurant Reviews/restaurant.html" />
         <option value="$PROJECT_DIR$/Restaurant Reviews/index.html" />
         <option value="$PROJECT_DIR$/Restaurant Reviews/css/styles.css" />
-        <option value="$PROJECT_DIR$/Restaurant Reviews/js/main.js" />
         <option value="$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/js/main.js" />
+        <option value="$PROJECT_DIR$/Memory Game/README.md" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/README.md" />
       </list>
     </option>
   </component>
@@ -203,25 +206,12 @@
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
+              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
               <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="127.0.0.1%3a8650" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +322,7 @@
       <workItem from="1539711793726" duration="5454000" />
       <workItem from="1539784745365" duration="2070000" />
       <workItem from="1539977240423" duration="9447000" />
-      <workItem from="1540060661284" duration="8395000" />
+      <workItem from="1540060661284" duration="10394000" />
     </task>
     <servers />
   </component>
@@ -366,7 +356,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222434000" />
+    <option name="totallyTimeSpent" value="224433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -404,30 +394,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Arcade Game/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arcade Game/images/Rock.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -668,15 +634,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3216">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="701">
+          <caret line="136" column="23" lean-forward="true" selection-start-line="136" selection-start-column="23" selection-end-line="136" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="528">
+            <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -132,7 +132,7 @@ resetRestaurants = (restaurants) => {
     self.restaurants = [];
     const ul = document.getElementById('restaurants-list');
     ul.innerHTML = '';
-
+    // https://stackoverflow.com/questions/33621438/cannot-remove-markers-in-google-maps-js-api
     // Remove all map markers
     if (self.markers) {
         self.markers.forEach(marker => marker.setMap(null));
