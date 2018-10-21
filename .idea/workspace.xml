@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138bc4c6-a592-42db-929b-2b13c3a5d063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Cat Clicker/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant Reviews/css/styles_origin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant Reviews/js/indexController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant Reviews/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat Clicker/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat Clicker/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat Clicker/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat Clicker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cat Clicker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat Clicker/index.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,44 +20,46 @@
     <session id="-1278720881">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="38" />
-          <entry key="css" value="642" />
-          <entry key="html" value="2610" />
-          <entry key="js" value="10201" />
+          <entry key="css" value="919" />
+          <entry key="html" value="2888" />
+          <entry key="js" value="10478" />
           <entry key="md" value="1507" />
           <entry key="scss" value="739" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="642" />
-          <entry key="HTML" value="2610" />
-          <entry key="JavaScript" value="10239" />
+          <entry key="CSS" value="919" />
+          <entry key="HTML" value="2888" />
+          <entry key="JavaScript" value="10516" />
           <entry key="Markdown" value="1507" />
           <entry key="SCSS" value="739" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="24" />
-          <entry key="html" value="46" />
+          <entry key="CODEOWNERS" value="1" />
+          <entry key="css" value="29" />
+          <entry key="html" value="71" />
           <entry key="jpg" value="4" />
-          <entry key="js" value="75" />
+          <entry key="js" value="107" />
+          <entry key="json" value="4" />
           <entry key="md" value="15" />
           <entry key="png" value="40" />
           <entry key="scss" value="6" />
@@ -68,48 +67,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="24" />
-          <entry key="HTML" value="46" />
+          <entry key="CSS" value="29" />
+          <entry key="HTML" value="71" />
           <entry key="Image" value="44" />
-          <entry key="JavaScript" value="75" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="107" />
           <entry key="Markdown" value="15" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4276423">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Cat Clicker/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Cat Clicker/js/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,6 +100,17 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>google</find>
+      <find>fetchRestaurantById</find>
+      <find>DBHelper</find>
+      <find>fetchRestaurantByCuisineAndNeighborhood</find>
+      <find>map</find>
+      <find>update</find>
+      <find>setMap</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,6 +144,14 @@
         <option value="$PROJECT_DIR$/Cat Clicker/css/index.scss" />
         <option value="$PROJECT_DIR$/Cat Clicker/index.html" />
         <option value="$PROJECT_DIR$/Cat Clicker/js/index.js" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/js/indexController.js" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/js/restaurant_info.js" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/sw.js" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/restaurant.html" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/index.html" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/css/styles.css" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/js/main.js" />
+        <option value="$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js" />
       </list>
     </option>
   </component>
@@ -192,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,31 +203,36 @@
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Cat Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Cat Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
+              <item name="127.0.0.1%3a8650" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Cat Clicker" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdacityProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="UdacityProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Cat Clicker" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant Reviews" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,18 +244,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Downloads/fend-restaurant-reviews-app-master/js/main.js" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Build a Profolio Site" />
-      <recent name="$PROJECT_DIR$/Memory Game" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Restaurant Reviews/css" />
       <recent name="$PROJECT_DIR$/Cat Clicker/js" />
       <recent name="$PROJECT_DIR$/Cat Clicker/css" />
       <recent name="$PROJECT_DIR$/Cat Clicker/img" />
       <recent name="$PROJECT_DIR$/Memory Game" />
-      <recent name="$PROJECT_DIR$/Build a Profolio Site/CSS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Restaurant Reviews/css" />
+      <recent name="$PROJECT_DIR$/Build a Profolio Site" />
+      <recent name="$PROJECT_DIR$/Memory Game" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +329,10 @@
       <workItem from="1539367881650" duration="222000" />
       <workItem from="1539373338341" duration="802000" />
       <workItem from="1539570880501" duration="12933000" />
-      <workItem from="1539711793726" duration="5010000" />
+      <workItem from="1539711793726" duration="5454000" />
+      <workItem from="1539784745365" duration="2070000" />
+      <workItem from="1539977240423" duration="9447000" />
+      <workItem from="1540060661284" duration="8395000" />
     </task>
     <servers />
   </component>
@@ -355,13 +366,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202078000" />
+    <option name="totallyTimeSpent" value="222434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1325811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15503876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,7 +384,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.31894484" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50070524" side_tool="true" weight="0.39778325" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50070524" side_tool="true" weight="0.39680588" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,52 +404,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/img/geometry2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/test.js" />
-    <entry file="file://$PROJECT_DIR$/Memory Game/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game Broken/css/app.css" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Build a Profolio Site/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/tingle-master/dist/tingle.js" />
     <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -635,16 +600,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cat Clicker/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="1344">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/CODEOWNERS">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fend-restaurant-reviews-app-master/index.html" />
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/indexController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1608">
+          <caret line="67" column="68" selection-start-line="67" selection-start-column="68" selection-end-line="67" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/restaurant_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/data/restaurants.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8664">
+          <caret line="361" column="6" lean-forward="true" selection-start-line="361" selection-start-column="6" selection-end-line="361" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="284" column="28" selection-start-line="284" selection-start-column="28" selection-end-line="284" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/css/styles_origin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3216">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant Reviews/js/dbhelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
