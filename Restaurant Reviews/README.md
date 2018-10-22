@@ -3,7 +3,7 @@
 
 ### Overview
 
-![screenshot](img/Screen Shot 2018-10-22 at 9.38.54 AM.png "App Screenshot")
+![screenshot](img/appScreenShot.png)
 
 This **Restaurant Reviews** is one of the Udacity Front End Developer Nanodegree Projects. It is a mobile-ready web application focusing on restaurant reviews. 
 
