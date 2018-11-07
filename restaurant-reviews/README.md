@@ -5,7 +5,7 @@
 
 ![screenshot](img/appScreenShot.png)
 
-This **Restaurant Reviews** is one of the Udacity Front End Developer Nanodegree Projects. It is a mobile-ready web application focusing on restaurant reviews. 
+This **Restaurant Reviews App** is one of the Udacity Front End Developer Nanodegree Projects. It is a mobile-ready web application focusing on restaurant reviews. 
 
 ##### Focus
 * Web Accessibility
